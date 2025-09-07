@@ -23,7 +23,7 @@ Balance of the account in wei as a hex string.
 
 #### Defined in
 
-[src/types/types.ts:1588](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L1588)
+[src/types/types.ts:1627](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L1627)
 
 ___
 
@@ -35,7 +35,7 @@ Hex-encoded bytecode.
 
 #### Defined in
 
-[src/types/types.ts:1592](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L1592)
+[src/types/types.ts:1631](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L1631)
 
 ___
 
@@ -47,7 +47,7 @@ Nonce
 
 #### Defined in
 
-[src/types/types.ts:1590](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L1590)
+[src/types/types.ts:1629](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L1629)
 
 ___
 
@@ -59,4 +59,4 @@ Storage slots of the contract.
 
 #### Defined in
 
-[src/types/types.ts:1594](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L1594)
+[src/types/types.ts:1633](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L1633)

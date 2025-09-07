@@ -33,11 +33,16 @@ export function getPricesBaseUrl(apiKey: string): string {
   return `https://api.g.alchemy.com/prices/v1/${apiKey}`;
 }
 
+export function getDataBaseUrl(apiKey: string): string {
+  return `https://api.g.alchemy.com/data/v1/${apiKey}`;
+}
+
 export enum AlchemyApiType {
   BASE,
   NFT,
   WEBHOOK,
-  PRICES
+  PRICES,
+  PORTFOLIO
 }
 
 /**
@@ -144,7 +149,17 @@ export const EthersNetwork = {
   [Network.GENSYN_TESTNET]: 'gensyn-testnet',
   [Network.SUPERSEED_MAINNET]: 'superseed-mainnet',
   [Network.SUPERSEED_SEPOLIA]: 'superseed-sepolia',
-  [Network.TEA_SEPOLIA]: 'tea-sepolia'
+  [Network.TEA_SEPOLIA]: 'tea-sepolia',
+  [Network.ANIME_MAINNET]: 'anime-mainnet',
+  [Network.ANIME_SEPOLIA]: 'anime-sepolia',
+  [Network.STORY_MAINNET]: 'story-mainnet',
+  [Network.STORY_AENEID]: 'story-aeneid',
+  [Network.MEGAETH_TESTNET]: 'megaeth-testnet',
+  [Network.BOTANIX_MAINNET]: 'botanix-mainnet',
+  [Network.BOTANIX_TESTNET]: 'botanix-testnet',
+  [Network.HUMANITY_MAINNET]: 'humanity-mainnet',
+  [Network.RISE_TESTNET]: 'rise-testnet',
+  [Network.HYPERLIQUID_MAINNET]: 'hyperliquid-mainnet'
 };
 
 /**
@@ -520,6 +535,46 @@ export const CustomNetworks: { [key: string]: NetworkFromEthers } = {
   'tea-sepolia': {
     chainId: 10218,
     name: 'tea-sepolia'
+  },
+  'anime-mainnet': {
+    chainId: 69000,
+    name: 'anime-mainnet'
+  },
+  'anime-sepolia': {
+    chainId: 0x1af4,
+    name: 'anime-sepolia'
+  },
+  'story-mainnet': {
+    chainId: 0x5ea,
+    name: 'story-mainnet'
+  },
+  'story-aeneid': {
+    chainId: 0x523,
+    name: 'story-aeneid'
+  },
+  'megaeth-testnet': {
+    chainId: 0x18c6,
+    name: 'megaeth-testnet'
+  },
+  'botanix-mainnet': {
+    chainId: 0xe34,
+    name: 'botanix-mainnet'
+  },
+  'botanix-testnet': {
+    chainId: 0xe35,
+    name: 'botanix-testnet'
+  },
+  'humanity-mainnet': {
+    chainId: 0x6a96a9,
+    name: 'humanity-mainnet'
+  },
+  'rise-testnet': {
+    chainId: 0xaa39db,
+    name: 'rise-testnet'
+  },
+  'hyperliquid-mainnet': {
+    chainId: 999,
+    name: 'hyperliquid-mainnet'
   }
 };
 

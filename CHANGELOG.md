@@ -8,12 +8,49 @@
 
 - Updated axios version to remove security warning (#486).
 
+## 3.6.3
+
+### Minor Changes
+
+- Added Hyperliquid Mainnet
+
+## 3.6.2
+
+### Minor Changes
+
+- Added Botanix Mainnet, Testnet; Humanity Mainnet; Rise Testnet
+- Deprecated Celo Baklava; Fantom Testnet; Geist Mainnet, Polter 
+
+## 3.6.1
+
+### Minor Changes
+
+- Remove leading 0s in hex strings for polygon compatibility
+
+## 3.6.0
+
+### Major Changes
+
+- Added a new `PortfolioNamespace` with five new methods: `getTokensByWallet()`, `getTokenBalancesByWallet()`, `getNftsByWallet()`, `getNftCollectionsByWallet()`, and `getTransactionsByWallet()`. Access these methods via `alchemy.portfolio`.
+
+## 3.5.10
+
+### Minor Changes
+
+- Removed batch operations for `getTokensForOwner` to fix support for newer networks
+
+## 3.5.9
+
+### Minor Changes
+
+- Added Anime Mainnet and Sepolia, Story Mainnet and Aeneid, Megaeth Testnet
+
 ## 3.5.8
 
 ### Minor Changes
 
-- Added Berachain Bepolia, Celo Baklava, Ethereum Hoodi, Gensyn Testnet, 
-Lens Mainnet, Settlus Mainnet, Superseed Mainnet and Sepolia, Tea Sepolia
+- Added Berachain Bepolia, Celo Baklava, Ethereum Hoodi, Gensyn Testnet,
+  Lens Mainnet, Settlus Mainnet, Superseed Mainnet and Sepolia, Tea Sepolia
 - Deprecated Berachain Bartio
 - Replace `optimism` with `opt-mainnet`
 

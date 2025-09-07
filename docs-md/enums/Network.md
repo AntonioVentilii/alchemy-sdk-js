@@ -11,7 +11,10 @@ available on which networks
 
 ### Enumeration members
 
+- [ABSTRACT\_MAINNET](Network.md#abstract_mainnet)
 - [ABSTRACT\_TESTNET](Network.md#abstract_testnet)
+- [ANIME\_MAINNET](Network.md#anime_mainnet)
+- [ANIME\_SEPOLIA](Network.md#anime_sepolia)
 - [APECHAIN\_CURTIS](Network.md#apechain_curtis)
 - [APECHAIN\_MAINNET](Network.md#apechain_mainnet)
 - [ARBNOVA\_MAINNET](Network.md#arbnova_mainnet)
@@ -25,18 +28,21 @@ available on which networks
 - [BASE\_MAINNET](Network.md#base_mainnet)
 - [BASE\_SEPOLIA](Network.md#base_sepolia)
 - [BERACHAIN\_BARTIO](Network.md#berachain_bartio)
+- [BERACHAIN\_BEPOLIA](Network.md#berachain_bepolia)
 - [BERACHAIN\_MAINNET](Network.md#berachain_mainnet)
 - [BLAST\_MAINNET](Network.md#blast_mainnet)
 - [BLAST\_SEPOLIA](Network.md#blast_sepolia)
 - [BNB\_MAINNET](Network.md#bnb_mainnet)
 - [BNB\_TESTNET](Network.md#bnb_testnet)
 - [CELO\_ALFAJORES](Network.md#celo_alfajores)
+- [CELO\_BAKLAVA](Network.md#celo_baklava)
 - [CELO\_MAINNET](Network.md#celo_mainnet)
 - [CROSSFI\_MAINNET](Network.md#crossfi_mainnet)
 - [CROSSFI\_TESTNET](Network.md#crossfi_testnet)
 - [DEGEN\_MAINNET](Network.md#degen_mainnet)
 - [ETH\_GOERLI](Network.md#eth_goerli)
 - [ETH\_HOLESKY](Network.md#eth_holesky)
+- [ETH\_HOODI](Network.md#eth_hoodi)
 - [ETH\_MAINNET](Network.md#eth_mainnet)
 - [ETH\_SEPOLIA](Network.md#eth_sepolia)
 - [FANTOM\_MAINNET](Network.md#fantom_mainnet)
@@ -47,10 +53,12 @@ available on which networks
 - [FRAX\_SEPOLIA](Network.md#frax_sepolia)
 - [GEIST\_MAINNET](Network.md#geist_mainnet)
 - [GEIST\_POLTER](Network.md#geist_polter)
+- [GENSYN\_TESTNET](Network.md#gensyn_testnet)
 - [GNOSIS\_CHIADO](Network.md#gnosis_chiado)
 - [GNOSIS\_MAINNET](Network.md#gnosis_mainnet)
 - [INK\_MAINNET](Network.md#ink_mainnet)
 - [INK\_SEPOLIA](Network.md#ink_sepolia)
+- [LENS\_MAINNET](Network.md#lens_mainnet)
 - [LENS\_SEPOLIA](Network.md#lens_sepolia)
 - [LINEA\_MAINNET](Network.md#linea_mainnet)
 - [LINEA\_SEPOLIA](Network.md#linea_sepolia)
@@ -61,7 +69,9 @@ available on which networks
 - [MATIC\_AMOY](Network.md#matic_amoy)
 - [MATIC\_MAINNET](Network.md#matic_mainnet)
 - [MATIC\_MUMBAI](Network.md#matic_mumbai)
+- [MEGAETH\_TESTNET](Network.md#megaeth_testnet)
 - [METIS\_MAINNET](Network.md#metis_mainnet)
+- [MONAD\_TESTNET](Network.md#monad_testnet)
 - [OPBNB\_MAINNET](Network.md#opbnb_mainnet)
 - [OPBNB\_TESTNET](Network.md#opbnb_testnet)
 - [OPT\_GOERLI](Network.md#opt_goerli)
@@ -72,16 +82,30 @@ available on which networks
 - [POLYGONZKEVM\_TESTNET](Network.md#polygonzkevm_testnet)
 - [POLYNOMIAL\_MAINNET](Network.md#polynomial_mainnet)
 - [POLYNOMIAL\_SEPOLIA](Network.md#polynomial_sepolia)
+- [RONIN\_MAINNET](Network.md#ronin_mainnet)
+- [RONIN\_SAIGON](Network.md#ronin_saigon)
 - [ROOTSTOCK\_MAINNET](Network.md#rootstock_mainnet)
 - [ROOTSTOCK\_TESTNET](Network.md#rootstock_testnet)
 - [SCROLL\_MAINNET](Network.md#scroll_mainnet)
 - [SCROLL\_SEPOLIA](Network.md#scroll_sepolia)
+- [SEI\_MAINNET](Network.md#sei_mainnet)
+- [SEI\_TESTNET](Network.md#sei_testnet)
+- [SETTLUS\_MAINNET](Network.md#settlus_mainnet)
+- [SETTLUS\_SEPTESTNET](Network.md#settlus_septestnet)
 - [SHAPE\_MAINNET](Network.md#shape_mainnet)
 - [SHAPE\_SEPOLIA](Network.md#shape_sepolia)
+- [SOLANA\_DEVNET](Network.md#solana_devnet)
+- [SOLANA\_MAINNET](Network.md#solana_mainnet)
 - [SONEIUM\_MAINNET](Network.md#soneium_mainnet)
 - [SONEIUM\_MINATO](Network.md#soneium_minato)
 - [SONIC\_BLAZE](Network.md#sonic_blaze)
 - [SONIC\_MAINNET](Network.md#sonic_mainnet)
+- [STORY\_AENEID](Network.md#story_aeneid)
+- [STORY\_MAINNET](Network.md#story_mainnet)
+- [SUPERSEED\_MAINNET](Network.md#superseed_mainnet)
+- [SUPERSEED\_SEPOLIA](Network.md#superseed_sepolia)
+- [TEA\_SEPOLIA](Network.md#tea_sepolia)
+- [UNICHAIN\_MAINNET](Network.md#unichain_mainnet)
 - [UNICHAIN\_SEPOLIA](Network.md#unichain_sepolia)
 - [WORLDCHAIN\_MAINNET](Network.md#worldchain_mainnet)
 - [WORLDCHAIN\_SEPOLIA](Network.md#worldchain_sepolia)
@@ -95,13 +119,43 @@ available on which networks
 
 ## Enumeration members
 
+### ABSTRACT\_MAINNET
+
+• **ABSTRACT\_MAINNET** = `"abstract-mainnet"`
+
+#### Defined in
+
+[src/types/types.ts:192](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L192)
+
+___
+
 ### ABSTRACT\_TESTNET
 
 • **ABSTRACT\_TESTNET** = `"abstract-testnet"`
 
 #### Defined in
 
-[src/types/types.ts:182](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L182)
+[src/types/types.ts:193](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L193)
+
+___
+
+### ANIME\_MAINNET
+
+• **ANIME\_MAINNET** = `"anime-mainnet"`
+
+#### Defined in
+
+[src/types/types.ts:210](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L210)
+
+___
+
+### ANIME\_SEPOLIA
+
+• **ANIME\_SEPOLIA** = `"anime-sepolia"`
+
+#### Defined in
+
+[src/types/types.ts:211](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L211)
 
 ___
 
@@ -111,7 +165,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:172](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L172)
+[src/types/types.ts:180](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L180)
 
 ___
 
@@ -121,7 +175,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:171](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L171)
+[src/types/types.ts:179](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L179)
 
 ___
 
@@ -131,7 +185,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:135](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L135)
+[src/types/types.ts:140](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L140)
 
 ___
 
@@ -143,7 +197,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:110](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L110)
+[src/types/types.ts:115](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L115)
 
 ___
 
@@ -153,7 +207,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:108](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L108)
+[src/types/types.ts:113](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L113)
 
 ___
 
@@ -163,7 +217,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:111](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L111)
+[src/types/types.ts:116](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L116)
 
 ___
 
@@ -173,7 +227,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:116](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L116)
+[src/types/types.ts:121](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L121)
 
 ___
 
@@ -183,7 +237,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:147](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L147)
+[src/types/types.ts:152](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L152)
 
 ___
 
@@ -193,7 +247,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:146](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L146)
+[src/types/types.ts:151](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L151)
 
 ___
 
@@ -205,7 +259,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:123](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L123)
+[src/types/types.ts:128](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L128)
 
 ___
 
@@ -215,7 +269,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:121](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L121)
+[src/types/types.ts:126](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L126)
 
 ___
 
@@ -225,7 +279,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:124](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L124)
+[src/types/types.ts:129](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L129)
 
 ___
 
@@ -233,9 +287,21 @@ ___
 
 • **BERACHAIN\_BARTIO** = `"berachain-bartio"`
 
+**`deprecated`**
+
 #### Defined in
 
-[src/types/types.ts:153](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L153)
+[src/types/types.ts:160](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L160)
+
+___
+
+### BERACHAIN\_BEPOLIA
+
+• **BERACHAIN\_BEPOLIA** = `"berachain-bepolia"`
+
+#### Defined in
+
+[src/types/types.ts:162](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L162)
 
 ___
 
@@ -245,7 +311,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:154](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L154)
+[src/types/types.ts:161](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L161)
 
 ___
 
@@ -255,7 +321,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:136](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L136)
+[src/types/types.ts:141](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L141)
 
 ___
 
@@ -265,7 +331,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:137](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L137)
+[src/types/types.ts:142](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L142)
 
 ___
 
@@ -275,7 +341,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:144](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L144)
+[src/types/types.ts:149](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L149)
 
 ___
 
@@ -285,7 +351,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:145](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L145)
+[src/types/types.ts:150](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L150)
 
 ___
 
@@ -295,7 +361,17 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:149](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L149)
+[src/types/types.ts:154](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L154)
+
+___
+
+### CELO\_BAKLAVA
+
+• **CELO\_BAKLAVA** = `"celo-baklava"`
+
+#### Defined in
+
+[src/types/types.ts:155](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L155)
 
 ___
 
@@ -305,7 +381,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:148](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L148)
+[src/types/types.ts:153](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L153)
 
 ___
 
@@ -315,7 +391,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:169](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L169)
+[src/types/types.ts:177](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L177)
 
 ___
 
@@ -325,7 +401,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:170](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L170)
+[src/types/types.ts:178](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L178)
 
 ___
 
@@ -335,7 +411,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:183](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L183)
+[src/types/types.ts:194](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L194)
 
 ___
 
@@ -347,7 +423,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:101](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L101)
+[src/types/types.ts:105](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L105)
 
 ___
 
@@ -357,7 +433,17 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:103](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L103)
+[src/types/types.ts:107](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L107)
+
+___
+
+### ETH\_HOODI
+
+• **ETH\_HOODI** = `"eth-hoodi"`
+
+#### Defined in
+
+[src/types/types.ts:108](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L108)
 
 ___
 
@@ -367,7 +453,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:99](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L99)
+[src/types/types.ts:103](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L103)
 
 ___
 
@@ -377,7 +463,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:102](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L102)
+[src/types/types.ts:106](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L106)
 
 ___
 
@@ -387,7 +473,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:131](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L131)
+[src/types/types.ts:136](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L136)
 
 ___
 
@@ -397,7 +483,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:132](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L132)
+[src/types/types.ts:137](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L137)
 
 ___
 
@@ -407,7 +493,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:161](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L161)
+[src/types/types.ts:169](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L169)
 
 ___
 
@@ -417,7 +503,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:162](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L162)
+[src/types/types.ts:170](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L170)
 
 ___
 
@@ -427,7 +513,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:165](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L165)
+[src/types/types.ts:173](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L173)
 
 ___
 
@@ -437,7 +523,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:166](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L166)
+[src/types/types.ts:174](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L174)
 
 ___
 
@@ -447,7 +533,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:174](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L174)
+[src/types/types.ts:183](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L183)
 
 ___
 
@@ -457,7 +543,17 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:175](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L175)
+[src/types/types.ts:184](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L184)
+
+___
+
+### GENSYN\_TESTNET
+
+• **GENSYN\_TESTNET** = `"gensyn-testnet"`
+
+#### Defined in
+
+[src/types/types.ts:206](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L206)
 
 ___
 
@@ -467,7 +563,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:143](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L143)
+[src/types/types.ts:148](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L148)
 
 ___
 
@@ -477,7 +573,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:142](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L142)
+[src/types/types.ts:147](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L147)
 
 ___
 
@@ -487,7 +583,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:184](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L184)
+[src/types/types.ts:195](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L195)
 
 ___
 
@@ -497,7 +593,17 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:185](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L185)
+[src/types/types.ts:196](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L196)
+
+___
+
+### LENS\_MAINNET
+
+• **LENS\_MAINNET** = `"lens-mainnet"`
+
+#### Defined in
+
+[src/types/types.ts:181](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L181)
 
 ___
 
@@ -507,7 +613,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:173](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L173)
+[src/types/types.ts:182](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L182)
 
 ___
 
@@ -517,7 +623,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:129](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L129)
+[src/types/types.ts:134](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L134)
 
 ___
 
@@ -527,7 +633,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:130](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L130)
+[src/types/types.ts:135](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L135)
 
 ___
 
@@ -537,7 +643,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:176](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L176)
+[src/types/types.ts:185](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L185)
 
 ___
 
@@ -547,7 +653,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:177](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L177)
+[src/types/types.ts:186](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L186)
 
 ___
 
@@ -557,7 +663,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:138](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L138)
+[src/types/types.ts:143](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L143)
 
 ___
 
@@ -567,7 +673,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:139](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L139)
+[src/types/types.ts:144](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L144)
 
 ___
 
@@ -577,7 +683,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:115](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L115)
+[src/types/types.ts:120](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L120)
 
 ___
 
@@ -587,7 +693,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:112](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L112)
+[src/types/types.ts:117](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L117)
 
 ___
 
@@ -599,7 +705,17 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:114](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L114)
+[src/types/types.ts:119](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L119)
+
+___
+
+### MEGAETH\_TESTNET
+
+• **MEGAETH\_TESTNET** = `"megaeth-testnet"`
+
+#### Defined in
+
+[src/types/types.ts:214](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L214)
 
 ___
 
@@ -609,7 +725,17 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:150](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L150)
+[src/types/types.ts:156](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L156)
+
+___
+
+### MONAD\_TESTNET
+
+• **MONAD\_TESTNET** = `"monad-testnet"`
+
+#### Defined in
+
+[src/types/types.ts:201](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L201)
 
 ___
 
@@ -619,7 +745,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:151](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L151)
+[src/types/types.ts:157](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L157)
 
 ___
 
@@ -629,7 +755,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:152](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L152)
+[src/types/types.ts:158](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L158)
 
 ___
 
@@ -641,7 +767,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:106](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L106)
+[src/types/types.ts:111](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L111)
 
 ___
 
@@ -651,7 +777,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:104](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L104)
+[src/types/types.ts:109](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L109)
 
 ___
 
@@ -661,7 +787,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:107](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L107)
+[src/types/types.ts:112](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L112)
 
 ___
 
@@ -671,7 +797,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:120](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L120)
+[src/types/types.ts:125](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L125)
 
 ___
 
@@ -681,7 +807,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:117](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L117)
+[src/types/types.ts:122](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L122)
 
 ___
 
@@ -693,7 +819,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:119](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L119)
+[src/types/types.ts:124](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L124)
 
 ___
 
@@ -703,7 +829,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:167](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L167)
+[src/types/types.ts:175](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L175)
 
 ___
 
@@ -713,7 +839,27 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:168](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L168)
+[src/types/types.ts:176](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L176)
+
+___
+
+### RONIN\_MAINNET
+
+• **RONIN\_MAINNET** = `"ronin-mainnet"`
+
+#### Defined in
+
+[src/types/types.ts:199](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L199)
+
+___
+
+### RONIN\_SAIGON
+
+• **RONIN\_SAIGON** = `"ronin-saigon"`
+
+#### Defined in
+
+[src/types/types.ts:200](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L200)
 
 ___
 
@@ -723,7 +869,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:159](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L159)
+[src/types/types.ts:167](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L167)
 
 ___
 
@@ -733,7 +879,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:160](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L160)
+[src/types/types.ts:168](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L168)
 
 ___
 
@@ -743,7 +889,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:140](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L140)
+[src/types/types.ts:145](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L145)
 
 ___
 
@@ -753,7 +899,47 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:141](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L141)
+[src/types/types.ts:146](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L146)
+
+___
+
+### SEI\_MAINNET
+
+• **SEI\_MAINNET** = `"sei-mainnet"`
+
+#### Defined in
+
+[src/types/types.ts:197](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L197)
+
+___
+
+### SEI\_TESTNET
+
+• **SEI\_TESTNET** = `"sei-testnet"`
+
+#### Defined in
+
+[src/types/types.ts:198](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L198)
+
+___
+
+### SETTLUS\_MAINNET
+
+• **SETTLUS\_MAINNET** = `"settlus-mainnet"`
+
+#### Defined in
+
+[src/types/types.ts:203](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L203)
+
+___
+
+### SETTLUS\_SEPTESTNET
+
+• **SETTLUS\_SEPTESTNET** = `"settlus-septestnet"`
+
+#### Defined in
+
+[src/types/types.ts:202](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L202)
 
 ___
 
@@ -763,7 +949,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:127](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L127)
+[src/types/types.ts:132](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L132)
 
 ___
 
@@ -773,7 +959,27 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:128](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L128)
+[src/types/types.ts:133](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L133)
+
+___
+
+### SOLANA\_DEVNET
+
+• **SOLANA\_DEVNET** = `"solana-devnet"`
+
+#### Defined in
+
+[src/types/types.ts:205](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L205)
+
+___
+
+### SOLANA\_MAINNET
+
+• **SOLANA\_MAINNET** = `"solana-mainnet"`
+
+#### Defined in
+
+[src/types/types.ts:204](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L204)
 
 ___
 
@@ -783,7 +989,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:155](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L155)
+[src/types/types.ts:163](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L163)
 
 ___
 
@@ -793,7 +999,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:156](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L156)
+[src/types/types.ts:164](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L164)
 
 ___
 
@@ -803,7 +1009,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:180](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L180)
+[src/types/types.ts:190](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L190)
 
 ___
 
@@ -813,7 +1019,67 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:179](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L179)
+[src/types/types.ts:189](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L189)
+
+___
+
+### STORY\_AENEID
+
+• **STORY\_AENEID** = `"story-aeneid"`
+
+#### Defined in
+
+[src/types/types.ts:213](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L213)
+
+___
+
+### STORY\_MAINNET
+
+• **STORY\_MAINNET** = `"story-mainnet"`
+
+#### Defined in
+
+[src/types/types.ts:212](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L212)
+
+___
+
+### SUPERSEED\_MAINNET
+
+• **SUPERSEED\_MAINNET** = `"superseed-mainnet"`
+
+#### Defined in
+
+[src/types/types.ts:207](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L207)
+
+___
+
+### SUPERSEED\_SEPOLIA
+
+• **SUPERSEED\_SEPOLIA** = `"superseed-sepolia"`
+
+#### Defined in
+
+[src/types/types.ts:208](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L208)
+
+___
+
+### TEA\_SEPOLIA
+
+• **TEA\_SEPOLIA** = `"tea-sepolia"`
+
+#### Defined in
+
+[src/types/types.ts:209](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L209)
+
+___
+
+### UNICHAIN\_MAINNET
+
+• **UNICHAIN\_MAINNET** = `"unichain-mainnet"`
+
+#### Defined in
+
+[src/types/types.ts:187](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L187)
 
 ___
 
@@ -823,7 +1089,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:178](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L178)
+[src/types/types.ts:188](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L188)
 
 ___
 
@@ -833,7 +1099,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:157](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L157)
+[src/types/types.ts:165](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L165)
 
 ___
 
@@ -843,7 +1109,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:158](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L158)
+[src/types/types.ts:166](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L166)
 
 ___
 
@@ -853,7 +1119,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:181](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L181)
+[src/types/types.ts:191](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L191)
 
 ___
 
@@ -863,7 +1129,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:133](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L133)
+[src/types/types.ts:138](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L138)
 
 ___
 
@@ -873,7 +1139,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:134](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L134)
+[src/types/types.ts:139](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L139)
 
 ___
 
@@ -883,7 +1149,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:125](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L125)
+[src/types/types.ts:130](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L130)
 
 ___
 
@@ -893,7 +1159,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:126](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L126)
+[src/types/types.ts:131](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L131)
 
 ___
 
@@ -903,7 +1169,7 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:163](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L163)
+[src/types/types.ts:171](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L171)
 
 ___
 
@@ -913,4 +1179,4 @@ ___
 
 #### Defined in
 
-[src/types/types.ts:164](https://github.com/alchemyplatform/alchemy-sdk-js/blob/8f119ad1/src/types/types.ts#L164)
+[src/types/types.ts:172](https://github.com/alchemyplatform/alchemy-sdk-js/blob/1ee40cb2/src/types/types.ts#L172)

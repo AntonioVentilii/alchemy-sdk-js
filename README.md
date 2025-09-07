@@ -1,14 +1,13 @@
-Alchemy SDK for Javascript
+> **WARNING:** The Alchemy SDK JS has been deprecated and will be archived **January 2026**. The software will only receive minimal support until then. New and existing users are encourage to use the following tools instead:
+> - [Alchemy Smart Wallets SDK](https://github.com/alchemyplatform/aa-sdk) for transacting applications (includes support for the [Portfolio Data APIs](https://www.alchemy.com/docs/reference/portfolio-apis)).
+> - [Viem](https://github.com/wevm/viem/) for JS based Ethereum development.
+> - [Solana Web3JS](https://www.npmjs.com/package/@solana/web3.js) for JS based Solana development.
+
+# Alchemy SDK for Javascript
 
 The Alchemy SDK is the most comprehensive, stable, and powerful Javascript SDK available today to interact with the blockchain.
 
 It supports the exact same syntax and functionality of the Ethers.js `AlchemyProvider` and `WebSocketProvider`, making it a 1:1 mapping for anyone using the Ethers.js `Provider`. However, it adds a significant amount of improved functionality on top of Ethers, such as easy access to Alchemy’s Enhanced and NFT APIs, robust WebSockets, and quality-of-life improvements such as automated retries.
-
-The SDK leverages Alchemy's hardened node infrastructure, guaranteeing best-in-class node reliability, scalability, and data correctness, and is undergoing active development by Alchemy's engineers.
-
-> 🙋‍♀️ **FEATURE REQUESTS:**
->
-> We'd love your thoughts on what would improve your web3 dev process the most! If you have 5 minutes, tell us what you want on our [Feature Request feedback form](https://alchemyapi.typeform.com/sdk-feedback), and we'd love to build it for you.
 
 The SDK currently supports the following chains (chains with '(d)' after are deprecated):
 
@@ -60,6 +59,13 @@ The SDK currently supports the following chains (chains with '(d)' after are dep
 - **Gensyn**: Testnet
 - **Superseed**: Mainnet, Sepolia
 - **Tea**: Sepolia
+- **Anime**: Mainnet, Sepolia
+- **Story**: Mainnet, Aeneid
+- **Megaeth**: Testnet
+- **Botanix**: Mainnet, Testnet
+- **Humanity**: Mainnet
+- **Rise**: Testnet
+- **Hyperliquid**: Mainnet
 
 You can find per-method documentation of the Alchemy SDK endpoints at the [Alchemy Docs linked in the sidebar](https://docs.alchemy.com/reference/alchemy-sdk-quickstart).
 
@@ -315,6 +321,20 @@ differences compared to the Alchemy REST endpoints:
 - Token ID is always normalized to an integer string on `BaseNft` and `Nft`.
 - Some fields omitted in the REST response are included in the SDK response in order to return an `Nft` object.
 - Some fields in the SDK's `Nft` object are named differently than the REST response.
+
+## Alchemy Portfolio API
+
+The [Alchemy Portfolio APIs](https://www.alchemy.com/docs/reference/portfolio-apis) include everything you need to build a view of a user’s assets: fungibles, NFTs, and their transactions.
+
+Methods on the `PortfolioNamespace` can be accessed via `alchemy.portfolio`. To use the methods, you must include your team's auth token in the `authToken` field of `AlchemySettings` when instantiating the SDK. The auth token can be found on the Alchemy Dashboard.
+
+Methods include:
+
+- `getTokensByWallet()`: Fetches fungible tokens (native and ERC-20) for multiple wallet addresses and networks.
+- `getTokenBalancesByWallet()`: Fetches fungible tokens (native and ERC-20) for multiple wallet addresses and networks.
+- `getNftsByWallet()`: Fetches NFTs for multiple wallet addresses and networks.
+- `getNftCollectionsByWallet()`: Fetches NFT collections (contracts) for multiple wallet addresses and networks.
+- `getTransactionsByWallet()`: Fetches all historical transactions (internal & external) for multiple wallet addresses and networks.
 
 ## Alchemy Notify
 

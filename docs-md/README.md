@@ -1,3 +1,8 @@
+> **\u26A0\uFE0F WARNING:** Alchemy SDK JS will be deprecated in **January 2026**. The software will remain available but will only receive minimal support. New developers should instead use:
+> - [Alchemy Smart Wallets SDK](https://github.com/alchemyplatform/aa-sdk) for transacting applications (includes support for the [Portfolio Data APIs](https://www.alchemy.com/docs/reference/portfolio-apis)).
+> - [Viem](https://github.com/wevm/viem/) for JS based Ethereum development.
+> - [Solana Web3JS](https://www.npmjs.com/package/@solana/web3.js) for JS based Solana development.
+
 alchemy-sdk / [Exports](modules.md)
 
 Alchemy SDK for Javascript
@@ -14,7 +19,7 @@ The SDK leverages Alchemy's hardened node infrastructure, guaranteeing best-in-c
 
 The SDK currently supports the following chains (chains with '(d)' after are deprecated):
 
-- **Ethereum**: Mainnet, Goerli (d), Sepolia, Holesky
+- **Ethereum**: Mainnet, Goerli (d), Sepolia, Holesky, Hoodi
 - **Polygon**: Mainnet, Mumbai (d), Amoy
 - **Optimism**: Mainnet, Goerli (d), Sepolia
 - **Arbitrum**: Mainnet, Goerli (d), Sepolia
@@ -33,10 +38,10 @@ The SDK currently supports the following chains (chains with '(d)' after are dep
 - **Gnosis**: Mainnet, Chiado
 - **BNB**: Mainnet, Testnet
 - **Avalanche**: Mainnet, Fuji
-- **Celo**: Mainnet, Alfajores
+- **Celo**: Mainnet, Alfajores, Baklava
 - **Metis**: Mainnet
 - **OpBNB**: Mainnet, Testnet
-- **Berachain**: Mainnet, Bartio
+- **Berachain**: Mainnet, Bartio, Bepolia
 - **Soneium**: Mainnet, Minato
 - **Worldchain**: Mainnet, Sepolia
 - **Rootstock**: Mainnet, Testnet
@@ -46,15 +51,25 @@ The SDK currently supports the following chains (chains with '(d)' after are dep
 - **Polynomial**: Mainnet, Sepolia
 - **Crossfi**: Mainnet, Testnet
 - **Apechain**: Mainnet, Curtis
-- **Lens**: Sepolia
+- **Lens**: Mainnet, Sepolia
 - **Geist**: Mainnet, Polter
 - **Lumia**: Prism, Testnet
-- **Unichain**: Sepolia
+- **Unichain**: Mainnet, Sepolia
 - **Sonic**: Mainnet, Blaze
 - **XMTP**: Testnet
-- **Abstract**: Testnet
+- **Abstract**: Mainnet, Testnet
 - **Degen**: Mainnet
 - **Ink**: Mainnet, Sepolia
+- **Sei**: Mainnet, Testnet
+- **Ronin**: Mainnet, Saigon
+- **Monad**: Testnet
+- **Settlus**: Mainnet, Testnet (Sepolia)
+- **Gensyn**: Testnet
+- **Superseed**: Mainnet, Sepolia
+- **Tea**: Sepolia
+- **Anime**: Mainnet, Sepolia
+- **Story**: Mainnet, Aeneid
+- **Megaeth**: Testnet
 
 You can find per-method documentation of the Alchemy SDK endpoints at the [Alchemy Docs linked in the sidebar](https://docs.alchemy.com/reference/alchemy-sdk-quickstart).
 
@@ -310,6 +325,20 @@ differences compared to the Alchemy REST endpoints:
 - Token ID is always normalized to an integer string on `BaseNft` and `Nft`.
 - Some fields omitted in the REST response are included in the SDK response in order to return an `Nft` object.
 - Some fields in the SDK's `Nft` object are named differently than the REST response.
+
+## Alchemy Portfolio API
+
+The [Alchemy Portfolio APIs](https://www.alchemy.com/docs/reference/portfolio-apis) include everything you need to build a view of a user’s assets: fungibles, NFTs, and their transactions.
+
+Methods on the `PortfolioNamespace` can be accessed via `alchemy.portfolio`. To use the methods, you must include your team's auth token in the `authToken` field of `AlchemySettings` when instantiating the SDK. The auth token can be found on the Alchemy Dashboard.
+
+Methods include:
+
+- `getTokensByWallet()`: Fetches fungible tokens (native and ERC-20) for multiple wallet addresses and networks.
+- `getTokenBalancesByWallet()`: Fetches fungible tokens (native and ERC-20) for multiple wallet addresses and networks.
+- `getNftsByWallet()`: Fetches NFTs for multiple wallet addresses and networks.
+- `getNftCollectionsByWallet()`: Fetches NFT collections (contracts) for multiple wallet addresses and networks.
+- `getTransactionsByWallet()`: Fetches all historical transactions (internal & external) for multiple wallet addresses and networks.
 
 ## Alchemy Notify
 
